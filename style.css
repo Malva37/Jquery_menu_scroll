@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#home,
+#about,
+#contact,
+#skills,
+#works {
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+
+.menu {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.dots {
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    transform: translate(0, -50%);
+    display: flex;
+    flex-flow: column;
+    font-size: 30px;
+}
+
+.activeDot {
+    font-weight: bold;
+}
+
+.title {
+    margin: 0 10px;
+}
